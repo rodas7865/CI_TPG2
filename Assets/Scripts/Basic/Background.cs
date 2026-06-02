@@ -1,7 +1,4 @@
-using NUnit.Framework;
 using System.Collections.Generic;
-using Unity.Mathematics;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -12,12 +9,20 @@ public class Background : MonoBehaviour
     public float animationSpeed = 2f;
 
     [SerializeField]
+    public Image backgroundDecorator;
+
+    [SerializeField]
     private RectTransform backgroundTransform;
 
     [SerializeField]
     private List<RectTransform> clouds;
 
-    //[SerializeField]
+    [SerializeField]
+    private List<string> sceneNamePair;
+
+    [SerializeField]
+    private List<Sprite> spritePair;
+
     float targetBackgroundPosition = -200;
 
     void Start()
@@ -25,10 +30,15 @@ public class Background : MonoBehaviour
         SceneHandler.ChangeScene("TitleScreen");
     }
 
-    // Update is called once per frame
     void Update()
     {
-        switch (SceneHandler.currentSceneDepth)
+        int sceneDepth = 1;
+
+        if(SceneManager.sceneCount>3)
+            sceneDepth = (SceneManager.sceneCount) - 3;
+
+
+        switch (sceneDepth)
         {
             case 1:
                 targetBackgroundPosition = -200;
@@ -53,9 +63,18 @@ public class Background : MonoBehaviour
                 spawnCloud(item);
             else
                 item.anchoredPosition = new Vector2(item.anchoredPosition.x-0.3f, item.anchoredPosition.y);
-
-
         }
+
+        for (int i = 0; i < sceneNamePair.Count; i++)
+        {
+            Scene scene = SceneManager.GetSceneByName(sceneNamePair[i]);
+
+            if (scene != null)
+            {
+                backgroundDecorator.sprite = spritePair[i];
+            }
+        }
+
     }
 
     private void spawnCloud(RectTransform cloud)
