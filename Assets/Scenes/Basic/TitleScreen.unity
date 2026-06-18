@@ -165,6 +165,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TittleScreenHandler
   clickHereTxt: {fileID: 1129622617}
   titleAnimator: {fileID: 987798935}
+  forkAnimator: {fileID: 1288646467}
+  titleTextAnimator: {fileID: 1185996205}
 --- !u!1 &987798933
 GameObject:
   m_ObjectHideFlags: 0

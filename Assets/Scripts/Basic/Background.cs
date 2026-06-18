@@ -27,7 +27,7 @@ public class Background : MonoBehaviour
 
     void Start()
     {
-        SceneHandler.ChangeScene("TitleScreen");
+        SceneManager.LoadSceneAsync("TitleScreen", LoadSceneMode.Additive);
     }
 
     void Update()

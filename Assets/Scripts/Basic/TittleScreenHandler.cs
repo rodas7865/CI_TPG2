@@ -1,6 +1,7 @@
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TittleScreenHandler : MonoBehaviour
 {
@@ -9,6 +10,12 @@ public class TittleScreenHandler : MonoBehaviour
 
     [SerializeField]
     private Animator titleAnimator;
+
+    [SerializeField]
+    private Animator forkAnimator;
+
+    [SerializeField]
+    private Animator titleTextAnimator;
 
     private bool playedAnimation = false;
 
@@ -25,7 +32,10 @@ public class TittleScreenHandler : MonoBehaviour
         if (state.IsName("TitleScreenExit") && state.normalizedTime > 1.0f && !playedAnimation)
         {
             playedAnimation = true;
-            SceneHandler.ChangeScene("MainMenu");
+            SceneManager.LoadSceneAsync("MainMenu", LoadSceneMode.Additive);
+
+            forkAnimator.SetTrigger("Stop");
+            titleTextAnimator.SetTrigger("Stop");
         } 
     }
 }
