@@ -76,7 +76,7 @@ public class BasicAnimatedSceneChange : MonoBehaviour
         }
         else
         {
-            SceneHandler.ChangeScene(sceneName);
+            SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
             inScene = false;
         }
     }

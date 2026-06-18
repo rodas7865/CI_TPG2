@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LearningMenu : MonoBehaviour
 {
@@ -22,7 +23,7 @@ public class LearningMenu : MonoBehaviour
         if (state.IsName("ButtonsExitAnimation") && state.normalizedTime > 1.0f && !playedAnimation)
         {
             playedAnimation = true;
-            SceneHandler.ChangeScene(nextScene);
+            SceneManager.LoadSceneAsync(nextScene, LoadSceneMode.Additive);
         }
             
         
