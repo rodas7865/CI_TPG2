@@ -26,6 +26,33 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Vegetables/Fruits.unity
     guid: fa142c8da97185a4bacbd7323783a71e
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/Snacks_info.unity
+    guid: 2981650659e8740baa5a5487bcb2b28c
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/Rules.unity
+    guid: 9e3a26a4a633846a1b5f69630421605b
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/GameOver.unity
+    guid: e918825b3103a4f89b328dc25292154e
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/Game.unity
+    guid: 8b1be099a2c564d698a4021409707936
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/Fritos_Info.unity
+    guid: 39706528b0866442a8b161decc4e9e36
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/Doces_Info.unity
+    guid: 3dca813a8a8f648ecac6e0342fc38fb4
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/DifficultyMenu.unity
+    guid: b64dc60b5aecc4af5bc8b741be7f887f
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/Categories.unity
+    guid: 880ddacd5ac704a839d6483737dfb945
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/Bebidas_Info.unity
+    guid: 9bdc6a8a2249946838a2f4ce844c04e8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
