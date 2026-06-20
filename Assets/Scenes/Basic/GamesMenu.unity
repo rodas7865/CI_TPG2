@@ -465,6 +465,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 418323665}
     m_Modifications:
+    - target: {fileID: 3050689779734357219, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7163299899968787164, guid: 2922dcf10d56b8042ae9a582d921971e, type: 3}
+    - target: {fileID: 3504325728352307105, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
+      propertyPath: m_text
+      value: Blendit
+      objectReference: {fileID: 0}
     - target: {fileID: 4170588562803155671, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -476,7 +484,7 @@ PrefabInstance:
     - target: {fileID: 4170588562803155671, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 168347202}
     - target: {fileID: 4170588562803155671, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -491,7 +499,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4170588562803155671, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Fruits
+      value: BlenditMenu
       objectReference: {fileID: 0}
     - target: {fileID: 4170588562803155671, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
