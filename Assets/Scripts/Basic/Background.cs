@@ -69,7 +69,7 @@ public class Background : MonoBehaviour
         {
             Scene scene = SceneManager.GetSceneByName(sceneNamePair[i]);
 
-            if (scene != null)
+            if (scene.name != null)
             {
                 backgroundDecorator.sprite = spritePair[i];
             }

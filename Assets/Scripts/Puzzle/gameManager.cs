@@ -8,7 +8,7 @@ public static class GameManager
  _rightAnswers++;
  if (_rightAnswers == 9)
  {
- SceneManager.LoadScene("FinalScene");
+ SceneManager.LoadScene("cenaFinal");
  }
  } 
  public static void IncrementWrongAnswer()

@@ -44,6 +44,39 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BlendIt/BlenditMenu.unity
     guid: c6da2b8a9aa1f934f87833aa239fc6d6
+  - enabled: 1
+    path: "Assets/Scenes/Latic\xEDnios/cenaFinal.unity"
+    guid: 592efe81f548d8c43ae036c899abba80
+  - enabled: 1
+    path: "Assets/Scenes/Latic\xEDnios/cenaJogo 1.unity"
+    guid: b3d7a2f49bc217c4da9e9dc627b2b4d6
+  - enabled: 1
+    path: "Assets/Scenes/Latic\xEDnios/cenaJogo 2.unity"
+    guid: 61aa1a8ad83d8cc4085c479e2c241485
+  - enabled: 1
+    path: "Assets/Scenes/Latic\xEDnios/cenaJogo 3.unity"
+    guid: 2ad6a85138ab7f6459373d704988a00a
+  - enabled: 1
+    path: "Assets/Scenes/Latic\xEDnios/cenaPrincipal.unity"
+    guid: f59291cef9dc5964188a1a050f936309
+  - enabled: 1
+    path: "Assets/Scenes/Latic\xEDnios/Iogurte.unity"
+    guid: 8a9e4e08828a21147ad8414a01747d33
+  - enabled: 1
+    path: "Assets/Scenes/Latic\xEDnios/LatCategoryMenu.unity"
+    guid: 57671b913965a144ea84ec2dbdaa2b9c
+  - enabled: 1
+    path: "Assets/Scenes/Latic\xEDnios/Leite.unity"
+    guid: 8a52b9bf2a13c5f4a83a350c4830bb94
+  - enabled: 1
+    path: "Assets/Scenes/Latic\xEDnios/Manteiga.unity"
+    guid: f0cac48fc9c4b314287c0b14b227db5a
+  - enabled: 1
+    path: "Assets/Scenes/Latic\xEDnios/Nivel.unity"
+    guid: 77c35ee3219371c4082d9125b4523649
+  - enabled: 1
+    path: "Assets/Scenes/Latic\xEDnios/Queijo.unity"
+    guid: 416ac83af4b116c4c918830c601254bd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

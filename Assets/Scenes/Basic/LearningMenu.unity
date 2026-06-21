@@ -1170,7 +1170,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: WIP
+          m_StringArgument: LatCategoryMenu
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1606340889
@@ -1223,8 +1223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74ed4d6ba50719c47a3ab7e6ea898415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WheelButton
-  buttonName: 
-  textMesh: {fileID: 0}
+  buttonName: "Lactic\xEDnios"
+  textMesh: {fileID: 31585494}
 --- !u!1 &1638778565
 GameObject:
   m_ObjectHideFlags: 0
