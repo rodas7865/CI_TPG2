@@ -384,10 +384,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Conecta as linhas!
+  m_text: Conecta as alimentos!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4ce1a0d0131c8904c9eac290ba970d2c, type: 2}
-  m_sharedMaterial: {fileID: -3576126867592844186, guid: 4ce1a0d0131c8904c9eac290ba970d2c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -418,7 +418,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -589,8 +589,8 @@ MonoBehaviour:
   m_text: "Tens 20 segundos para completar cada n\xEDvel.\n\n3 Estrelas - <7 segundos\n2
     Estrelas - <14 segundos\n3 Estrelas - <20 segundos"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
-  m_sharedMaterial: {fileID: 4175271790479028392, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -903,8 +903,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "N\xEDvel \n3"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
-  m_sharedMaterial: {fileID: 4175271790479028392, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1363,8 +1363,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "N\xEDvel \n2"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
-  m_sharedMaterial: {fileID: 4175271790479028392, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1470,7 +1470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c32fe6abd850a9e43896abae16f5e801, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CarneSceneChanger
-  defaultTargetScene: 
+  defaultTargetScene: GamesMenu
 --- !u!4 &1754556385
 Transform:
   m_ObjectHideFlags: 0
@@ -1545,8 +1545,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "N\xEDvel \n1"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
-  m_sharedMaterial: {fileID: 4175271790479028392, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1879,7 +1879,7 @@ PrefabInstance:
     - target: {fileID: 7499328051144226888, guid: b0c428e05c1036447abac80420d40d0a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1754556384}
     - target: {fileID: 7499328051144226888, guid: b0c428e05c1036447abac80420d40d0a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2

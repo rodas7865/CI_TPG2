@@ -253,8 +253,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Peixe
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4ce1a0d0131c8904c9eac290ba970d2c, type: 2}
-  m_sharedMaterial: {fileID: -3576126867592844186, guid: 4ce1a0d0131c8904c9eac290ba970d2c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -428,50 +428,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 623017938385940442, guid: da09038d9682fe54d827e1ad4571aa19, type: 3}
   m_PrefabInstance: {fileID: 1500496591}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &541143183
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 541143185}
-  - component: {fileID: 541143184}
-  m_Layer: 0
-  m_Name: ScoreManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &541143184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 541143183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73c7f5fb520796b4a8ae56108b96c72a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CarneScoreManager
---- !u!4 &541143185
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 541143183}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 226.85115, y: 255.806, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &562227892
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,8 +487,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Vem de aves como frango, peru e pato.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
-  m_sharedMaterial: {fileID: 4175271790479028392, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -872,8 +828,8 @@ MonoBehaviour:
     vitaminas A, D, E, K e do complexo B, que s\xE3o essenciais para a vis\xE3o,
     ossos, pele e metabolismo energ\xE9tico.\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
-  m_sharedMaterial: {fileID: 4175271790479028392, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1169,8 +1125,8 @@ MonoBehaviour:
     gorduras saud\xE1veis que n\xE3o entopem as art\xE9rias, sendo uma \xF3tima op\xE7\xE3o
     para uma alimenta\xE7\xE3o equilibrada."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
-  m_sharedMaterial: {fileID: 4175271790479028392, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1474,8 +1430,8 @@ MonoBehaviour:
   m_text: "<i>Fonte de vitamina D</i>: Ajuda o corpo a absorver c\xE1lcio, fortalecendo
     ossos e dentes."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
-  m_sharedMaterial: {fileID: 4175271790479028392, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1711,6 +1667,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1228433968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1228433970}
+  - component: {fileID: 1228433969}
+  m_Layer: 0
+  m_Name: CarregarCena
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1228433969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228433968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c32fe6abd850a9e43896abae16f5e801, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarneSceneChanger
+  defaultTargetScene: LearningMenu
+--- !u!4 &1228433970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228433968}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 409.7189, y: 213.57599, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1387131052
 GameObject:
   m_ObjectHideFlags: 0
@@ -1776,8 +1777,8 @@ MonoBehaviour:
     As suas prote\xEDnas s\xE3o de digest\xE3o r\xE1pida, ideal para crian\xE7as
     e pessoas que precisam de uma alimenta\xE7\xE3o leve e nutritiva.\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
-  m_sharedMaterial: {fileID: 4175271790479028392, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2367,8 +2368,8 @@ MonoBehaviour:
     B12:</i> Essencial para o c\xE9rebro e para a forma\xE7\xE3o das c\xE9lulas do
     sangue.\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
-  m_sharedMaterial: {fileID: 4175271790479028392, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2764,8 +2765,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Carne Branca
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4ce1a0d0131c8904c9eac290ba970d2c, type: 2}
-  m_sharedMaterial: {fileID: -3576126867592844186, guid: 4ce1a0d0131c8904c9eac290ba970d2c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3042,8 +3043,8 @@ MonoBehaviour:
     que ajuda a transportar oxig\xE9nio no sangue. Sem ferro, sentir\xEDamos cansa\xE7o
     e fraqueza.\nPor que \xE9 especial?\n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
-  m_sharedMaterial: {fileID: 4175271790479028392, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3179,8 +3180,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Carne Vermelha
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4ce1a0d0131c8904c9eac290ba970d2c, type: 2}
-  m_sharedMaterial: {fileID: -3576126867592844186, guid: 4ce1a0d0131c8904c9eac290ba970d2c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3328,8 +3329,8 @@ MonoBehaviour:
     os alimentos que te ajudam a crescer forte, inteligente e cheio de energia. Carne
     branca, carne vermelha, peixe e ovo s\xE3o os her\xF3is da nossa alimenta\xE7\xE3o."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
-  m_sharedMaterial: {fileID: 4175271790479028392, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3470,8 +3471,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Carne, Ovo e Peixe
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4ce1a0d0131c8904c9eac290ba970d2c, type: 2}
-  m_sharedMaterial: {fileID: -3576126867592844186, guid: 4ce1a0d0131c8904c9eac290ba970d2c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3609,8 +3610,8 @@ MonoBehaviour:
     como a metionina e a triptofano, que s\xE3o fundamentais para a constru\xE7\xE3o
     de m\xFAsculos, pele e outros tecidos."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
-  m_sharedMaterial: {fileID: 4175271790479028392, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3746,8 +3747,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ovo
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4ce1a0d0131c8904c9eac290ba970d2c, type: 2}
-  m_sharedMaterial: {fileID: -3576126867592844186, guid: 4ce1a0d0131c8904c9eac290ba970d2c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3939,8 +3940,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -618, y: 300}
-  m_SizeDelta: {x: 272.459, y: 164.576}
+  m_AnchoredPosition: {x: -589, y: 304}
+  m_SizeDelta: {x: 209.246, y: 126.393}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2140430822
 MonoBehaviour:
@@ -3985,7 +3986,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2140430823}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1228433969}
+        m_TargetAssemblyTypeName: CarneSceneChanger, Assembly-CSharp
+        m_MethodName: LoadDefaultScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2140430823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4031,4 +4044,4 @@ SceneRoots:
   - {fileID: 1546296878}
   - {fileID: 1225306728}
   - {fileID: 1820168221}
-  - {fileID: 541143185}
+  - {fileID: 1228433970}
