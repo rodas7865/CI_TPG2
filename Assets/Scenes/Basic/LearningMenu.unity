@@ -1317,7 +1317,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: WIP
+          m_StringArgument: JunkCategoriesMenu
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1638778568
@@ -1370,8 +1370,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74ed4d6ba50719c47a3ab7e6ea898415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WheelButton
-  buttonName: 
-  textMesh: {fileID: 0}
+  buttonName: Fast Food
+  textMesh: {fileID: 31585494}
 --- !u!1 &2051793250
 GameObject:
   m_ObjectHideFlags: 0

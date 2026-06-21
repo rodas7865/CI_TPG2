@@ -176,7 +176,39 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3504325728352307105, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_text
-      value: Na Cozinha
+      value: Nutri-Catch
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170588562803155671, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170588562803155671, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170588562803155671, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 168347202}
+    - target: {fileID: 4170588562803155671, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170588562803155671, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170588562803155671, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BasicAnimatedSceneChange, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170588562803155671, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Rules
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170588562803155671, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4170732402903431069, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_Name
@@ -244,7 +276,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7672489458628739079, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 960
+      value: 1600
       objectReference: {fileID: 0}
     - target: {fileID: 7672489458628739079, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -287,6 +319,10 @@ PrefabInstance:
     - target: {fileID: 4170732402903431069, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_Name
       value: CategoryButton (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170732402903431069, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7672489458628739079, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_Pivot.x
@@ -388,7 +424,8 @@ GameObject:
   m_Component:
   - component: {fileID: 418323665}
   - component: {fileID: 418323667}
-  - component: {fileID: 418323666}
+  - component: {fileID: 418323668}
+  - component: {fileID: 418323669}
   m_Layer: 5
   m_Name: Buttons
   m_TagString: Untagged
@@ -415,26 +452,11 @@ RectTransform:
   - {fileID: 346537809}
   m_Father: {fileID: 952138742}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &418323666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 418323664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0085daa76a65d9a428b385f89ff0d1f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BasicAnimatedSceneChange
-  mainAnimator: {fileID: 418323667}
-  retreatAnimator: {fileID: 0}
-  nameOfExitAnimation: 
 --- !u!95 &418323667
 Animator:
   serializedVersion: 7
@@ -457,6 +479,47 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &418323668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418323664}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.HorizontalLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &418323669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418323664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0085daa76a65d9a428b385f89ff0d1f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BasicAnimatedSceneChange
+  mainAnimator: {fileID: 418323667}
+  retreatAnimator: {fileID: 0}
+  nameOfExitAnimation: 
 --- !u!1001 &667572490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -571,7 +634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7672489458628739079, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 192
+      value: 320
       objectReference: {fileID: 0}
     - target: {fileID: 7672489458628739079, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -614,6 +677,10 @@ PrefabInstance:
     - target: {fileID: 4170732402903431069, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_Name
       value: CategoryButton (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170732402903431069, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7672489458628739079, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_Pivot.x
@@ -888,7 +955,7 @@ PrefabInstance:
     - target: {fileID: 3050689779734357219, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 232fbbf39edd1464ab1ef7c9e965b9e2, type: 3}
+      objectReference: {fileID: 21300000, guid: fbd0afa46918b3348ba1f44201006cb5, type: 3}
     - target: {fileID: 3504325728352307105, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_text
       value: 'Puzzle
@@ -993,7 +1060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7672489458628739079, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 576
+      value: 960
       objectReference: {fileID: 0}
     - target: {fileID: 7672489458628739079, guid: 622a09dbf18db1544b891f3ac76144b3, type: 3}
       propertyPath: m_AnchoredPosition.y
