@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d825ada33639f4bfea6d04d95440084e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - scoreTextObject: {instanceID: 0}
+  - redHeart: {instanceID: 0}
+  - greyHeart: {instanceID: 0}
+  - okSound: {instanceID: 0}
+  - boomSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
