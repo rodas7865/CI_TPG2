@@ -61,7 +61,7 @@ public class CarneGameManager : MonoBehaviour
       {
             float timeLeft = timeLimit - CarneScoreManager.Instance.LevelTime;
 
-            if (timeLeft <= 0 && CarneScoreManager.Instance.Counting && !CarneScoreManager.Instance.IsWin)
+            if (timeLeft <= 0 && CarneScoreManager.Instance.Counting && CarneScoreManager.Instance.IsWin == false)
             {
                   CarneScoreManager.Instance.SetWinState(false);
                   CarneScoreManager.Instance.SetScore(0);
@@ -230,8 +230,9 @@ public class CarneGameManager : MonoBehaviour
 
                               CarneScoreManager.Instance.SetScore(finalScore);
 
-                              SceneManager.LoadSceneAsync("CarneFinalScene",LoadSceneMode.Additive);  
-                        }
+                              SceneManager.LoadSceneAsync("CarneFinalScene",LoadSceneMode.Additive);
+                                SceneManager.UnloadSceneAsync("CarneLevel1");
+                }
                   }
                   return;        
             }

@@ -8,8 +8,11 @@ public static class GameManager
  _rightAnswers++;
  if (_rightAnswers == 9)
  {
- SceneManager.LoadScene("cenaFinal");
- }
+ SceneManager.LoadSceneAsync("cenaFinal",LoadSceneMode.Additive);
+            SceneManager.UnloadSceneAsync("cenaJogo 1");
+            SceneManager.UnloadSceneAsync("cenaJogo 2");
+            SceneManager.UnloadSceneAsync("cenaJogo 3");
+        }
  } 
  public static void IncrementWrongAnswer()
  {

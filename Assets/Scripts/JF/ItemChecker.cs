@@ -81,7 +81,8 @@ public class ItemChecker : MonoBehaviour
         // Check if game over condition is met
         if (lives <= 0)
         {
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadSceneAsync("GameOver",LoadSceneMode.Additive);
+            SceneManager.UnloadSceneAsync("Game");
         }
     }
 
