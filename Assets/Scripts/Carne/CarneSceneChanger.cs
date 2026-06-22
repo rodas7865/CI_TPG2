@@ -7,6 +7,7 @@ public class CarneSceneChanger : MonoBehaviour
       [Tooltip("Type the exact name of the scene you want to load here.")]
       [SerializeField] private string defaultTargetScene;
 
+   /*
       public void LoadDefaultScene()
       {
             if (!string.IsNullOrEmpty(defaultTargetScene))
@@ -18,7 +19,7 @@ public class CarneSceneChanger : MonoBehaviour
                   Debug.LogWarning("CarneSceneChanger: Default Target Scene is empty!");
             }
       }
-
+   */
       public void LoadGameLevelByIndex(int levelIndex)
       {
             if (CarneScoreManager.Instance != null)

@@ -104,6 +104,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Laticinios/queijo.unity
     guid: 416ac83af4b116c4c918830c601254bd
+  - enabled: 1
+    path: Assets/Scenes/Carne/CarneFinalScene.unity
+    guid: 531a020290d69e6479c04db91aa07ca8
+  - enabled: 1
+    path: Assets/Scenes/Carne/CarneInformativo.unity
+    guid: a6634d44d9a9028409097f3c89acd98f
+  - enabled: 1
+    path: Assets/Scenes/Carne/CarneLevel1.unity
+    guid: fde6432977b48b14d890e19027d0ecef
+  - enabled: 1
+    path: Assets/Scenes/Carne/CarneNiveis.unity
+    guid: e1a2a2a69fa1caf45ba52de1b51e786b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

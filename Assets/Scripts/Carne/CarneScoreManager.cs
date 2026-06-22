@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CarneScoreManager : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class CarneScoreManager : MonoBehaviour
       public int CurrentLevelIndex => currentLevelIndex;
 
       public bool IsWin { get; private set; }
+
+    public bool Counting = false;
 
       public void SetWinState(bool won)
       {
@@ -47,6 +50,7 @@ public class CarneScoreManager : MonoBehaviour
 
       private void Update()
       {
+        if(Counting)
             levelTime += Time.deltaTime;
       }
 
@@ -64,6 +68,6 @@ public class CarneScoreManager : MonoBehaviour
       {
             currentLevelIndex = levelIndex;
             ResetLevelStats();
-            UnityEngine.SceneManagement.SceneManager.LoadScene("CarneLevel1");
+        //UnityEngine.SceneManagement.SceneManager.LoadSceneAsync("CarneLevel1", LoadSceneMode.Additive);
       }
 }

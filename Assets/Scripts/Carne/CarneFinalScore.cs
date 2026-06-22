@@ -38,7 +38,7 @@ public class CarneFinalScore : MonoBehaviour
                   CarneScoreManager.Instance.ResetLevelStats();
             }
 
-            SceneManager.LoadScene("CarneLevel1");
+            //SceneManager.LoadScene("CarneLevel1");
       }
 
 }

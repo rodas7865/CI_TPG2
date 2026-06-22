@@ -54,18 +54,21 @@ public class CarneGameManager : MonoBehaviour
             }
 
             CreateGrid();
-      }
+        CarneScoreManager.Instance.Counting = true;
+    }
 
       private void Update()
       {
             float timeLeft = timeLimit - CarneScoreManager.Instance.LevelTime;
 
-            if (timeLeft <= 0)
+            if (timeLeft <= 0 && CarneScoreManager.Instance.Counting && !CarneScoreManager.Instance.IsWin)
             {
                   CarneScoreManager.Instance.SetWinState(false);
                   CarneScoreManager.Instance.SetScore(0);
-                  SceneManager.LoadScene("CarneFinalScene");
-                  return;
+            SceneManager.UnloadSceneAsync("CarneLevel1");
+                  SceneManager.LoadSceneAsync("CarneFinalScene", LoadSceneMode.Additive);
+            CarneScoreManager.Instance.Counting = false;
+            return;
             }
 
             if (timerText != null)
@@ -227,7 +230,7 @@ public class CarneGameManager : MonoBehaviour
 
                               CarneScoreManager.Instance.SetScore(finalScore);
 
-                              SceneManager.LoadScene("CarneFinalScene");  
+                              SceneManager.LoadSceneAsync("CarneFinalScene",LoadSceneMode.Additive);  
                         }
                   }
                   return;        
