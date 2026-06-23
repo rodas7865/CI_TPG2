@@ -656,7 +656,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Criado Por:\n\nNuno Oliveira\nAlexandre Coimbra\nRodrigo Cartaxo\nRodrigo
-    Alves\nHumberto Oliveira\n\nAudios: \nPiki\n(freetouse/music/piki)\n\nzehendrew\n(pixabay.com)\n"
+    Alves\n\n\nAudios: \nPiki\n(freetouse/music/piki)\n\nzehendrew\n(pixabay.com)\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}
   m_sharedMaterial: {fileID: 4175271790479028392, guid: 6110c3e5dc1ef554583c910e6c2a637f, type: 2}

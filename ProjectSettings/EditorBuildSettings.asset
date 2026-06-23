@@ -44,6 +44,78 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BlendIt/BlenditMenu.unity
     guid: c6da2b8a9aa1f934f87833aa239fc6d6
+  - enabled: 1
+    path: Assets/Scenes/Laticinios/cenaFinal.unity
+    guid: 592efe81f548d8c43ae036c899abba80
+  - enabled: 1
+    path: Assets/Scenes/Laticinios/cenaJogo 1.unity
+    guid: b3d7a2f49bc217c4da9e9dc627b2b4d6
+  - enabled: 1
+    path: Assets/Scenes/Laticinios/cenaJogo 2.unity
+    guid: 61aa1a8ad83d8cc4085c479e2c241485
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/Bebidas_Info.unity
+    guid: 9bdc6a8a2249946838a2f4ce844c04e8
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/JunkCategoriesMenu.unity
+    guid: 880ddacd5ac704a839d6483737dfb945
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/DifficultyMenu.unity
+    guid: b64dc60b5aecc4af5bc8b741be7f887f
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/Doces_Info.unity
+    guid: 3dca813a8a8f648ecac6e0342fc38fb4
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/Fritos_Info.unity
+    guid: 39706528b0866442a8b161decc4e9e36
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/Game.unity
+    guid: 8b1be099a2c564d698a4021409707936
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/GameOver.unity
+    guid: e918825b3103a4f89b328dc25292154e
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/Rules.unity
+    guid: 9e3a26a4a633846a1b5f69630421605b
+  - enabled: 1
+    path: Assets/Scenes/JunkFood/Snacks_info.unity
+    guid: 2981650659e8740baa5a5487bcb2b28c
+  - enabled: 1
+    path: Assets/Scenes/Laticinios/cenaJogo 3.unity
+    guid: 2ad6a85138ab7f6459373d704988a00a
+  - enabled: 1
+    path: Assets/Scenes/Laticinios/cenaPrincipal.unity
+    guid: f59291cef9dc5964188a1a050f936309
+  - enabled: 1
+    path: Assets/Scenes/Laticinios/Iogurte.unity
+    guid: 8a9e4e08828a21147ad8414a01747d33
+  - enabled: 1
+    path: Assets/Scenes/Laticinios/LatCategoryMenu.unity
+    guid: 57671b913965a144ea84ec2dbdaa2b9c
+  - enabled: 1
+    path: Assets/Scenes/Laticinios/Leite.unity
+    guid: 8a52b9bf2a13c5f4a83a350c4830bb94
+  - enabled: 1
+    path: Assets/Scenes/Laticinios/Manteiga.unity
+    guid: f0cac48fc9c4b314287c0b14b227db5a
+  - enabled: 1
+    path: Assets/Scenes/Laticinios/Nivel.unity
+    guid: 77c35ee3219371c4082d9125b4523649
+  - enabled: 1
+    path: Assets/Scenes/Laticinios/queijo.unity
+    guid: 416ac83af4b116c4c918830c601254bd
+  - enabled: 1
+    path: Assets/Scenes/Carne/CarneFinalScene.unity
+    guid: 531a020290d69e6479c04db91aa07ca8
+  - enabled: 1
+    path: Assets/Scenes/Carne/CarneInformativo.unity
+    guid: a6634d44d9a9028409097f3c89acd98f
+  - enabled: 1
+    path: Assets/Scenes/Carne/CarneLevel1.unity
+    guid: fde6432977b48b14d890e19027d0ecef
+  - enabled: 1
+    path: Assets/Scenes/Carne/CarneNiveis.unity
+    guid: e1a2a2a69fa1caf45ba52de1b51e786b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

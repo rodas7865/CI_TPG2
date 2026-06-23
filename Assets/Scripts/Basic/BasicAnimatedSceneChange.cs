@@ -43,8 +43,11 @@ public class BasicAnimatedSceneChange : MonoBehaviour
         changingScene = false;
         inScene = true;
 
-        mainAnimator.ResetTrigger("PlayExitAnimation");
-        mainAnimator.SetTrigger("PlayEntryAnimation");
+        if (mainAnimator != null)
+        {
+            mainAnimator.ResetTrigger("PlayExitAnimation");
+            mainAnimator.SetTrigger("PlayEntryAnimation");
+        }
 
         if (retreatAnimator != null)
         {
@@ -57,7 +60,11 @@ public class BasicAnimatedSceneChange : MonoBehaviour
     {
         changingScene = true;
 
-        mainAnimator.ResetTrigger("PlayEntryAnimation");
+        if (mainAnimator != null)
+        {
+            mainAnimator.ResetTrigger("PlayEntryAnimation");
+        }
+        
 
         if (retreatAnimator!=null)
         {
@@ -67,8 +74,11 @@ public class BasicAnimatedSceneChange : MonoBehaviour
             yield return WaitForAnimation(retreatAnimator, "ArrowExitAnimation");
         }
 
-        mainAnimator.SetTrigger("PlayExitAnimation");
-        yield return WaitForAnimation(mainAnimator, nameOfExitAnimation);
+        if (mainAnimator != null)
+        {
+            mainAnimator.SetTrigger("PlayExitAnimation");
+            yield return WaitForAnimation(mainAnimator, nameOfExitAnimation);
+        }
 
         if (isRetreating)
         {
