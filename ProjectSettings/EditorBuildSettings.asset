@@ -25,7 +25,7 @@ EditorBuildSettings:
     guid: 0baea92dd36b3374b841630ce157d256
   - enabled: 1
     path: Assets/Scenes/Vegetables/Fruits.unity
-    guid: fa142c8da97185a4bacbd7323783a71e
+    guid: 6710e9f6fed1713428d1e28b4ad55581
   - enabled: 1
     path: Assets/Scenes/Vegetables/Kitchen.unity
     guid: 42471242a8aec4b44823fac3c2a06e12
@@ -44,15 +44,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BlendIt/BlenditMenu.unity
     guid: c6da2b8a9aa1f934f87833aa239fc6d6
-  - enabled: 1
-    path: Assets/Scenes/Laticinios/cenaFinal.unity
-    guid: 592efe81f548d8c43ae036c899abba80
-  - enabled: 1
-    path: Assets/Scenes/Laticinios/cenaJogo 1.unity
-    guid: b3d7a2f49bc217c4da9e9dc627b2b4d6
-  - enabled: 1
-    path: Assets/Scenes/Laticinios/cenaJogo 2.unity
-    guid: 61aa1a8ad83d8cc4085c479e2c241485
   - enabled: 1
     path: Assets/Scenes/JunkFood/Bebidas_Info.unity
     guid: 9bdc6a8a2249946838a2f4ce844c04e8
@@ -83,6 +74,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Laticinios/cenaJogo 3.unity
     guid: 2ad6a85138ab7f6459373d704988a00a
+  - enabled: 1
+    path: Assets/Scenes/Laticinios/cenaJogo 1.unity
+    guid: b3d7a2f49bc217c4da9e9dc627b2b4d6
+  - enabled: 1
+    path: Assets/Scenes/Laticinios/cenaJogo 2.unity
+    guid: 61aa1a8ad83d8cc4085c479e2c241485
+  - enabled: 1
+    path: Assets/Scenes/Laticinios/cenaFinal.unity
+    guid: 592efe81f548d8c43ae036c899abba80
   - enabled: 1
     path: Assets/Scenes/Laticinios/cenaPrincipal.unity
     guid: f59291cef9dc5964188a1a050f936309

@@ -17,7 +17,7 @@ public class FinalSceneManager : MonoBehaviour
  public void TestAgain()
  {
  GameManager.Reset();
- SceneManager.LoadScene("MainScene");
+ SceneManager.LoadScene("Nivel");
  }
 } 
 
